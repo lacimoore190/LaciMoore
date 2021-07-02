@@ -1,0 +1,211 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ font-family: "sans-serif", Georgia, 'Times New Roman', Times, serif;
+ font-size: 25px;
+ line-height: 1.5em;
+ color:rgb(133,121,101);
+ background-image: url("assets/blmpic.jpeg");
+  background-attachment: fixed;
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+header {
+  padding-top: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+  background-color: black;
+  margin: 0.2rem;
+}
+
+
+main{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/* STYLE TEXT */
+
+h1 {
+  font-family: "sans-serif", Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(255, 94, 0);
+  line-height: 60px;
+  letter-spacing: 15px;
+  border-style: solid;
+  background-color: black;
+  border-color: rgb(131, 103, 83);
+  margin: 1px;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "sans-serif", Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(133, 121, 101);
+  border-style: solid;
+  background-color: black;
+  border-color: rgb(131, 103, 83);
+  line-height: 1.3em;
+  letter-spacing: 5px;
+  margin: 5em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-family: "sans-serif", Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(133, 121, 101);
+  background-color: black;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  margin: 5em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h4 {
+  font-family: "sans-serif", Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  text-align: center;
+  color: rgb(133, 121, 101);
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  margin: 5em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 25px; 
+
+  padding-top: 10px;
+  margin: 5em;
+  padding:5em;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+a {
+  color: rgb(224, 115, 25);
+  text-decoration: none;
+}
+
+/* STYLE IMAGES */
+img{
+  display: block;
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-style: soild;
+  border-color: rgb(255, 123, 0);
+  border-width: 8px;
+  border-radius: 5px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item{
+  flex-basis: 100%;
+  margin: 1%;
+  padding: 0.9em;
+}
+/* STYLE NAV BAR */
+ul.nav-bar {
+  list-style-type: none;        
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-color: rgb(235, 113, 0));
+}
+
+li.nav-item {
+  display: inline;       
+  float: center;           
+  padding: 5px;
+}
+
+li.nav-item a {   
+  font-size: 15px;
+  color: rgb(131, 103, 83);
+  
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav-item a:hover {
+  background-color: rgb(255, 123, 0);
+  color: #000000;
+}
+
+/* STYLE BUTTONS */
+.RJFact{
+  background:rgb(133, 121, 101);
+  border-radius: 10px;
+  border-style: none;
+  font-family: "sans-serif",Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 2em;
+  color: rgb(228, 125, 41);
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#fact{
+  padding: 2px;
+  text-align: center;
+  line-height: 1.3em;
+  font-family: "sans-serif", Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+ margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+/* ADD MORE! */
+@media screen and (max-width: 850px) {
+  .flex-container{
+    flex-wrap:wrap;
+  }
+}
+
+.resource1{
+  margin-top:10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.resource2{
+  margin-bottom: 15px;
+}
